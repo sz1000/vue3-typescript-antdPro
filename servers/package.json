@@ -1,0 +1,13 @@
+{
+  "name": "servers",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PORT=8899 nitro dev",
+    "build": "nitro build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "h3": "^1.8.1",
+    "nitropack": "^2.6.2"
+  }
+}
